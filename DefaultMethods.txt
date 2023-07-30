@@ -1,0 +1,18 @@
+Collection interface defines the most common method which are applicable for any collection object.
+
+1. boolean add(Object o)
+2. boolean addAll(Collection c)
+
+3. boolean remove(Object o)
+4. boolean removeAll(Collection c)
+5. void clear()
+6. boolean retainAll(Collection c)
+
+7. boolean contains(Object o)
+8. boolean containsAll(Collection c)
+
+9. boolean isEmpty()
+10. int size()
+
+11. Object[] toArray()
+12. Iterator iterator()
