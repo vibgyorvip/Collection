@@ -1,0 +1,13 @@
+1. void add(int index , Object o)
+2. boolean addAll(int index , Collection c)
+
+3. Object get(int index)
+
+4. Object remove(int index)
+
+5. Object set(int index , Object o)
+
+6. int indexOf(Object o)
+7. int lastIndexOf(Object o)
+
+8. ListIterator listIterator();
