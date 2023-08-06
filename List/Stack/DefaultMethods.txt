@@ -1,0 +1,11 @@
+It is the child class of vector class .
+it is a specially designed class for LIFO order.
+
+Methods:
+=========
+
+1. Object push(Object o)
+2. Object pop()
+3. Object peek()
+4. boolean empty()
+5. int search(Object o)
