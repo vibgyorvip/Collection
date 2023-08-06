@@ -1,0 +1,11 @@
+Usually we can use LinkedList to develop Stack and Queue 
+to provide support for this , LinkedList class defines the following methods.
+
+void addFirst(Object o)
+void addLast(Object o)
+
+Object getFirst()
+Object getLast()
+
+Object removeFirst()
+Object removeLast()
