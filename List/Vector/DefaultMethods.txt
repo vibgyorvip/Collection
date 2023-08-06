@@ -1,0 +1,28 @@
+Vector specific methods :
+===================================
+
+To add objects:
+    add(Object o)
+    add(int index,Object o)
+    addElements(Object o)
+
+To remove objects:
+    remove(Object o)
+    removeElement(Object o)
+    remove(int index)
+    removeElementAt(int index)
+    clear()
+    removeAllElements()
+
+
+TO get objects:
+    Object get(int index)
+    Object elementAt(int index)
+    Object firstElement()
+    Object lastElement()
+
+
+other methods:
+    int size()
+    int capacity()
+    Enumeration elements()
