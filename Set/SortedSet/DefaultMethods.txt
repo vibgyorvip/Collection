@@ -1,0 +1,33 @@
+SortedSet:
+It is the child interface of Set(I).
+If we want to represent a group of objects into a single entity according to some sorting order without duplicates.
+
+Methods:-
+
+Object first()---- return first element of the SortedSet
+Object last()----- return last element of the SortedSet
+
+SortedSet headSet(Object obj)---- return SortedSet whose element are < obj
+SortedSet tailSet(Object obj)---- return SortedSet whose element are >= obj
+
+SortedSet subSet(Object obj1, Object obj2)----- return SortedSet whose element >= obj1 and < obj2
+
+Comparator comparator()----- returns comparator object that describes underlying sorting technique .
+if we are using default natural sorting order then we will get null.
+
+E.X.
+100
+101
+104
+106
+110
+115
+120
+
+
+first()==>100
+last()===>120
+headSet(106)==>[100,101,104]
+tailSet(106)==>[106,110,115,120]
+subSet(101,115)==>[101,104,106,110]
+Comparator()===>null
