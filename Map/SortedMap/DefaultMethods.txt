@@ -1,0 +1,33 @@
+SortedMap(I):
+It is the child interface of Map(I).
+If we want to represent a group of key-value pairs according to some sorting order of keys.
+
+Methods:-
+
+Object firstKey()---- return first key of the SortedMap
+Object lastKey()----- return last key of the SortedMap
+
+SortedMap headMap(Object key)---- return SortedMap whose key-value pairs are < key
+SortedMap tailMap(Object key)---- return SortedMap whose key-value pairs are >= key
+
+SortedMap subMap(Object key1, Object key2)----- return SortedMap whose key-value pairs >= key1 and < key2
+
+Comparator comparator()----- returns comparator object that describes underlying sorting technique .
+if we are using default natural sorting order then we will get null.
+
+E.X.
+
+101--->A
+103--->B
+104--->C
+107--->D
+125--->E
+136--->F
+
+
+firstKey()==>101
+lastKey()===>136
+headMap(107)==>{101=A,103=B,104=c}
+tailMap(107)==>{107=D,125=E,136=F}
+subMap(103,125)==>{103=B,104=C,107=D}
+Comparator()===>null
