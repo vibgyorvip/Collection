@@ -1,0 +1,33 @@
+Map interface methods :
+=============================================
+
+Object put(Object key, Object value)
+void putAll(Map m)
+Object get(Object key)
+Object remove(Object key)
+boolean containsKey(Object key)
+boolean contanisValue(Object value)
+boolean isEmpty()
+int size()
+void clear()
+
+================================================
+
+Collection view of Map :
+
+Set keySet()
+Collection Values()
+Set entrySet()
+
+================================================
+Entry(I):
+
+Map is considered as Collection of Entry objects .
+
+Object getKey()
+Object getValue()
+Object setValue(Object newobj)
+
+
+
+
