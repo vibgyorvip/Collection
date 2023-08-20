@@ -1,0 +1,15 @@
+1.5v Enhancement (Queue(I))
+===============================
+child interface of Collection(I)
+
+If we want to represent a group of individual objects prior to processing then we should go for Queue.
+
+Methods:
+===========
+boolean offer(Object obj) --- to add an object into the Queue
+  
+Object poll() --- to remove and return head element of the queue. If Queue ==> EMPTY , returns null 
+Object remove() ---to remove and return head element of the queue. If Queue ==> EMPTY , raises R.T.E. NoSuchElementException
+
+Object peek() --- to return head element of the queue. If Queue ==> EMPTY , returns null 
+Object element()---to return head element of the queue. If Queue ==> EMPTY , raises R.T.E. NoSuchElementException  
