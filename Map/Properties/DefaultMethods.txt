@@ -1,0 +1,19 @@
+We can use Java Properties Object to hold properties which are comming from Properties file.
+
+Constructor:  Properties p = new Properties();
+
+In normal Map (HashMap , HashTable , TreeMap) key and value can be any type but in the case of Properties , key and value should be string type only. 
+
+Methods:
+String getProperty(String Pname) --- to get value assocated with the specified property.
+String setProperty(String Pname, String Pvalue) --- to set a new property.
+Enumeration propertyNames() --- retur all property names present in Properties Object.
+
+===========
+
+void load(InputStream is) --- to load properties from properties file into Java Properties Object.
+
+void store(OutputStream os,String Comment) --- to store properties from Java Properties Object into properties file.
+
+
+    
