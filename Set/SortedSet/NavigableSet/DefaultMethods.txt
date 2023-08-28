@@ -1,0 +1,15 @@
+It is the child interface of SortedSet and it defines several methods for navigation purposes .
+
+NavigableSet defines the following methods:
+
+floor(e)-- it returns highest element which is <= e
+lower(e)-- it returns highest element which is < e
+
+ceiling(e)-- it returns lowest element which is >= e
+higher(e) -- it returns lowest element which is > e
+
+pollFirst()-- remove & return first element
+pollLast() -- remove & return last element
+
+descendingSet() -- it returns NavigableSet in reverse order.
+
