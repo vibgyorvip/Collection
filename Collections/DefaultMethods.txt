@@ -1,0 +1,46 @@
+Collection class defines several utility methods for Collection objects like sorting , searching , reversing etc.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+Sorting elements of List :
+=================================
+1. public static void sort(List l) ---- To sort based on D.N.S.O.
+In this case , List should compulsory contain Homogeneous & Comparable object otherwise we will get R.T.E saying ClassCasteException.
+               List should not contain Null otherwise we will get NullPointerException.
+
+2. public static void sort(List l, Comparator c) ---- To sort based on customized sort 
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Searching elements of List :
+=================================
+1. public static int binarySearch(List l, Object target) --- If the list is sorted according to D.N.S.O.
+
+2. public static int binarySearch(List l, Object target , Comparator c) --- If the list is sorted according to customized sorting order.
+
+
+
+Conclusions :
+============
+
+1. The above search method internally will use Binary Search.
+2. Successful search returns Index , unsuccessful search returns Insertion Point .
+    Insertion Point :: is the location where we can place target element in sorted list .
+3. Before calling binarySearch() method compulsory list should be sorted otherwise we will get unprdictable results .
+4. If the list is sorted according to comparator then at the time of search operation also we have to pass same comparator object otherwise we will get unpredictable results.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+Reversing elements of list :
+================================
+public static void reverse(List l)
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+reverse() vs reverseOrder():
+===============================
+
+we can use reverse() method to reverse order of elememts of List.
+
+whereas we can use reverseOrder() method to get reversed Comparator.
+
+Comparator c1 = Collections.reverseOrder(Comparator c);
+
