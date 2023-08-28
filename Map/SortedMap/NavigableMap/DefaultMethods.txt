@@ -1,0 +1,14 @@
+It is the child interface of SortedSet and it defines several methods for navigation purposes .
+
+NavigableSet defines the following methods:
+
+floorKey(e)-- it returns highest Key which is <= e
+lowerKey(e)-- it returns highest Key which is < e
+
+ceilingKey(e)-- it returns lowest Key which is >= e
+higherKey(e) -- it returns lowest key which is > e
+
+pollEntry()-- remove & return first key
+pollLastEntry() -- remove & return last key
+
+descendingMap() -- it returns NavigableMap in reverse order.
