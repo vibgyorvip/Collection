@@ -1,6 +1,6 @@
-It is the child interface of SortedSet and it defines several methods for navigation purposes .
+It is the child interface of SortedMap and it defines several methods for navigation purposes .
 
-NavigableSet defines the following methods:
+NavigableMap defines the following methods:
 
 floorKey(e)-- it returns highest Key which is <= e
 lowerKey(e)-- it returns highest Key which is < e
