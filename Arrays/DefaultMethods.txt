@@ -1,0 +1,33 @@
+Arrays: Arrays class is an utility cleass to define several utility methods for Arrays objects.
+
+Sorting elements of Array:
+public static void sort(Primitive[] p) -- to sort according to D.N.S.O.
+public static void sort(Object[] o) -- to sort according to D.N.S.O.
+public static void sort(Object[] o, Comprator c) -- to sort according to C.S.O.
+
+NOTE: we can sort primitive Arrays only based on default natural sorting order whereas we can sort object arrays either based on D.N.S.O. or based on C.S.O.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+  
+Searching elements of Array:
+public static int binarySearch(primitive[] p ,primitive target)
+public static int binarySearch(Object[] a,Object target)
+public static int binarySearch(Object[] a,Object target , Comprator C)
+
+NOTE: All rules of Arrays class binarySerach() method are exactly same as Collections class binarySerach Methods.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Conversion of Array to List:
+public static List asList(Object[] a) -- Strictly speaking this method won't create an independent List Object,for existing array we are getting List View .
+E.X. 
+  String[] s ={"A","Z","B"};
+  List l = Arrays.asList(s);
+
+1. By using Array reference if we perform any change automatically that change will be refelcted to the List similarly by using List reference if we perform any change 
+  that change will be reflected automatically to the Array.  
+2. By using List reference we can't perform any operration which varies the size otherwise we will get R.T.E. saying UnsupportedOperationException.
+3. By using List refrence we are not allowed to replace with hetrogenous object otherwise we will get R.T.E. saying ArrayStoreException.  
+  
+  
+  
+
+  
